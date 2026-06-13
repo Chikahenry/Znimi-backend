@@ -121,6 +121,7 @@ builder.Services.AddCors(options =>
     {
         policy.WithOrigins("https://lampndlight.netlify.app",
                             "http://loan.znimi.com.ng",
+                            "https://znimi-frontend.vercel.app",
                             "http://localhost:5173",
                             "http://localhost:5175",
                             "http://localhost:5174")
