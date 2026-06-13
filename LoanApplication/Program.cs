@@ -120,7 +120,8 @@ builder.Services.AddCors(options =>
 {
     options.AddDefaultPolicy(policy =>
     {
-        policy.WithOrigins("http://loan.znimi.com.ng",
+        policy.WithOrigins("https://loan.znimi.com.ng",
+                            "https://znimi.netlify.app",
                             "https://znimi-frontend.vercel.app",
                             "http://localhost:4200",
                             "http://localhost:5175",
