@@ -1,0 +1,11 @@
+**/.vs
+**/.vscode
+**/bin
+**/obj
+**/.git
+**/.gitignore
+**/README.md
+**/*.user
+**/*.suo
+**/node_modules
+**/.angular
